@@ -100,9 +100,9 @@ hunter_add_version(
         VERSION
         "2.0.7-p0"
         URL
-        "https://github.com/hunter-packages/SDL2/archive/v2.0.7-p0.tar.gz"
+        "https://github.com/Predelnik/SDL2/archive/hunter-v2.0.7.tar.gz"
         SHA1
-        a4d25eeea03709abd83ec34b08e51739987339c0
+         045b45ed38bbea4aa1a0f46321c90816f38f8b6a
 )
 
 
