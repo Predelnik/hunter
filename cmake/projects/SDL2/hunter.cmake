@@ -94,6 +94,18 @@ hunter_add_version(
         daebe20807e166f62f3671f742e81e8d2959388b
 )
 
+hunter_add_version(
+        PACKAGE_NAME
+        SDL2
+        VERSION
+        "2.0.7-p0"
+        URL
+        "https://github.com/Predelnik/SDL2/archive/hunter-v2.0.7.tar.gz"
+        SHA1
+         045b45ed38bbea4aa1a0f46321c90816f38f8b6a
+)
+
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(SDL2)
 hunter_download(PACKAGE_NAME SDL2)
