@@ -16,5 +16,4 @@ else()
 endif()
 
 target_link_libraries(main
-    SDL2::SDL2main
-    SDL2::SDL2)
+    SDL2::SDL2all)
