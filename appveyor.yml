@@ -14,13 +14,11 @@ environment:
 
     ### Boost ###
 
-    # FIXME:
-    # - TOOLCHAIN: "ninja-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost
+    - TOOLCHAIN: "ninja-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost
 
-    # FIXME:
-    # - TOOLCHAIN: "nmake-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost
+    - TOOLCHAIN: "nmake-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost
 
     - TOOLCHAIN: "vs-12-2013-win64"
       PROJECT_DIR: examples\Boost
@@ -43,19 +41,16 @@ environment:
     - TOOLCHAIN: "mingw-c11"
       PROJECT_DIR: examples\Boost
 
-    # timeout: https://ci.appveyor.com/project/ingenue/hunter/build/1.0.651/job/h2lruqh872w9x2qa
-    # - TOOLCHAIN: "msys"
-    #   PROJECT_DIR: examples\Boost
+    - TOOLCHAIN: "msys"
+      PROJECT_DIR: examples\Boost
 
     ### Boost-filesystem ###
 
-    # FIXME:
-    # - TOOLCHAIN: "ninja-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-filesystem
+    - TOOLCHAIN: "ninja-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-filesystem
 
-    # FIXME:
-    # - TOOLCHAIN: "nmake-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-filesystem
+    - TOOLCHAIN: "nmake-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-filesystem
 
     - TOOLCHAIN: "vs-12-2013-win64"
       PROJECT_DIR: examples\Boost-filesystem
@@ -75,19 +70,16 @@ environment:
     - TOOLCHAIN: "mingw"
       PROJECT_DIR: examples\Boost-filesystem
 
-    # timeout: https://ci.appveyor.com/project/ingenue/hunter/build/1.0.651/job/h2lruqh872w9x2qa
-    # - TOOLCHAIN: "msys"
-    #   PROJECT_DIR: examples\Boost-filesystem
+    - TOOLCHAIN: "msys"
+      PROJECT_DIR: examples\Boost-filesystem
 
     ### Boost-system ###
 
-    # FIXME:
-    # - TOOLCHAIN: "ninja-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-system
+    - TOOLCHAIN: "ninja-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-system
 
-    # FIXME:
-    # - TOOLCHAIN: "nmake-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-system
+    - TOOLCHAIN: "nmake-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-system
 
     - TOOLCHAIN: "vs-12-2013-win64"
       PROJECT_DIR: examples\Boost-system
@@ -110,19 +102,16 @@ environment:
     - TOOLCHAIN: "mingw-c11"
       PROJECT_DIR: examples\Boost-system
 
-    # timeout: https://ci.appveyor.com/project/ingenue/hunter/build/1.0.651/job/h2lruqh872w9x2qa
-    # - TOOLCHAIN: "msys"
-    #   PROJECT_DIR: examples\Boost-system
+    - TOOLCHAIN: "msys"
+      PROJECT_DIR: examples\Boost-system
 
     ### Boost-iostreams ###
 
-    # FIXME:
-    # - TOOLCHAIN: "ninja-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-iostreams
+    - TOOLCHAIN: "ninja-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-iostreams
 
-    # FIXME:
-    # - TOOLCHAIN: "nmake-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-iostreams
+    - TOOLCHAIN: "nmake-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-iostreams
 
     - TOOLCHAIN: "vs-12-2013-win64"
       PROJECT_DIR: examples\Boost-iostreams
@@ -136,24 +125,19 @@ environment:
     - TOOLCHAIN: "vs-14-2015"
       PROJECT_DIR: examples\Boost-iostreams
 
-    # FIXME:
-    # * https://ci.appveyor.com/project/ingenue/hunter/build/1.0.81/job/gyvurjesgb2gtcyw
-    # - TOOLCHAIN: "mingw"
-    #  PROJECT_DIR: examples\Boost-iostreams
+    - TOOLCHAIN: "mingw"
+      PROJECT_DIR: examples\Boost-iostreams
 
-    # timeout: https://ci.appveyor.com/project/ingenue/hunter/build/1.0.651/job/h2lruqh872w9x2qa
-    # - TOOLCHAIN: "msys"
-    #   PROJECT_DIR: examples\Boost-iostreams
+    - TOOLCHAIN: "msys"
+      PROJECT_DIR: examples\Boost-iostreams
 
     ### Boost-thread ###
 
-    # FIXME:
-    # - TOOLCHAIN: "ninja-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-thread
+    - TOOLCHAIN: "ninja-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-thread
 
-    # FIXME:
-    # - TOOLCHAIN: "nmake-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-thread
+    - TOOLCHAIN: "nmake-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-thread
 
     - TOOLCHAIN: "vs-12-2013-win64"
       PROJECT_DIR: examples\Boost-thread
@@ -176,19 +160,16 @@ environment:
     - TOOLCHAIN: "mingw-c11"
       PROJECT_DIR: examples\Boost-thread
 
-    # timeout: https://ci.appveyor.com/project/ingenue/hunter/build/1.0.651/job/h2lruqh872w9x2qa
-    # - TOOLCHAIN: "msys"
-    #   PROJECT_DIR: examples\Boost-thread
+    - TOOLCHAIN: "msys"
+      PROJECT_DIR: examples\Boost-thread
 
     ### Boost-chrono ###
 
-    # FIXME:
-    # - TOOLCHAIN: "ninja-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-chrono
+    - TOOLCHAIN: "ninja-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-chrono
 
-    # FIXME:
-    # - TOOLCHAIN: "nmake-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-chrono
+    - TOOLCHAIN: "nmake-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-chrono
 
     - TOOLCHAIN: "vs-12-2013-win64"
       PROJECT_DIR: examples\Boost-chrono
@@ -205,19 +186,16 @@ environment:
     - TOOLCHAIN: "mingw"
       PROJECT_DIR: examples\Boost-chrono
 
-    # timeout: https://ci.appveyor.com/project/ingenue/hunter/build/1.0.651/job/h2lruqh872w9x2qa
-    # - TOOLCHAIN: "msys"
-    #   PROJECT_DIR: examples\Boost-chrono
+    - TOOLCHAIN: "msys"
+      PROJECT_DIR: examples\Boost-chrono
 
     ### Boost-serialization ###
 
-    # FIXME:
-    # - TOOLCHAIN: "ninja-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-serialization
+    - TOOLCHAIN: "ninja-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-serialization
 
-    # FIXME:
-    # - TOOLCHAIN: "nmake-vs-12-2013-win64"
-    #   PROJECT_DIR: examples\Boost-serialization
+    - TOOLCHAIN: "nmake-vs-12-2013-win64"
+      PROJECT_DIR: examples\Boost-serialization
 
     - TOOLCHAIN: "vs-12-2013-win64"
       PROJECT_DIR: examples\Boost-serialization
@@ -234,9 +212,8 @@ environment:
     - TOOLCHAIN: "mingw"
       PROJECT_DIR: examples\Boost-serialization
 
-    # timeout: https://ci.appveyor.com/project/ingenue/hunter/build/1.0.651/job/h2lruqh872w9x2qa
-    # - TOOLCHAIN: "msys"
-    #   PROJECT_DIR: examples\Boost-serialization
+    - TOOLCHAIN: "msys"
+      PROJECT_DIR: examples\Boost-serialization
 
     - TOOLCHAIN: "mingw-c11"
       PROJECT_DIR: examples\Boost-program-options
